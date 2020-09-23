@@ -21,6 +21,16 @@
   <ItemGroup>
     <ClCompile Include="dxlib_RPG.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+    <ResourceCompile Include="アイコン反映.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="game.ico" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{17860A06-38F1-4694-BEF1-140AF7A3F93D}</ProjectGuid>
